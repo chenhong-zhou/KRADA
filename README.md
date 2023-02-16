@@ -5,7 +5,7 @@ This repository provides pytorch implementation of [Known-region-aware Domain Al
 
 ## Problem Setup: Open-set domain adaptation segmentation (OSDAS)
 
-Open-set domain adaptation segmentation: Suppose that a set of source images with annotations are denoted as $\lbrace X^S, Y^S \rbrace$ where the source label space is $\mathbb{L}^{H\times W}$ and $\mathbb{L}=\lbrace 1, \dots, K \rbrace$ is the category label set with $K$ known classes. The target images $X^T$ are drawn from a different distribution and the target label set has an additional label $K+1$ to denote the unseen classes that do not appear in $\mathbb{L}$. We aim to train a segmentation model $\mathcal{M}$ to accurately classify each pixel in target images $X^T$ into one class of the label set $$\lbrace 1,\dots, K, K+1 \rbrace$$.
+Open-set domain adaptation segmentation: Suppose that a set of source images with annotations are denoted as $\lbrace X^S, Y^S \rbrace$ where the source label space is $\mathbb{L}^{H\times W}$ and $\mathbb{L}=\lbrace 1, \dots, K \rbrace$ is the category label set with $K$ known classes. The target images $X^T$ are drawn from a different distribution and the target label set has an additional label $K+1$ to denote the unseen classes that do not appear in $\mathbb{L}$. We aim to train a segmentation model $\mathcal{M}$ to accurately classify each pixel in target images $X^T$ into one class of the label set $\lbrace 1,\dots, K, K+1 \rbrace$.
 
 
 
