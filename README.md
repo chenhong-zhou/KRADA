@@ -19,15 +19,16 @@ Suppose that a set of source images with annotations are denoted as $\lbrace X^S
 ![plot](./figs/segmentation.png)
 
 
-## Requirements:
+## Prerequisites:
 
 - python = 3.6.12
 - torch = 1.7.1
 - torchvision = 0.8.2
 
 
-
-
+## Dataset:
+- Download the SYNTHIA Dataset and the Cityscapes Dataset.
+Here we provide the code for reproducing the implementations of AdaptSegNet + KRADA, CLAN + KRADA, and FADA + KRADA for the Synthia -> Cityscapes task.
 
 
 ## Citation
