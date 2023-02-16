@@ -9,6 +9,9 @@ Suppose that a set of source images with annotations are denoted as $\lbrace X^S
 
 
 
+## Known-region-aware Domain Alignment (KRADA)
+
+![plot](./figs/framework.png)
 
 
 This code archive includes the Python implementation of "On Characterizing the Trade-off in Invariant Representation
@@ -18,6 +21,8 @@ dependency between the representation `Z` and the target attribute `Y` while kee
 semantic attribute S as small as possible. Suppose the statistical dependence between `Y` and `S` is not negligible.
 In that case, there will be a trade-off between the utility of the downstream target task and invariance to `S`,
 as shown in the following diagram.
+
+
 
 ![plot](./figs/segmentation.png)
 
