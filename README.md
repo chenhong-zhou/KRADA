@@ -14,19 +14,9 @@ Suppose that a set of source images with annotations are denoted as $\lbrace X^S
 ![plot](./figs/framework.png)
 
 
-This code archive includes the Python implementation of "On Characterizing the Trade-off in Invariant Representation
-Learning" and corresponding baseline methods. We model the encoder via `r` functions in a universal reproducing kernel
-Hilbert spaces, where `r` is the embedding dimensionality. Denoted by K-T-Opt, our method aims to maximize the
-dependency between the representation `Z` and the target attribute `Y` while keeping the dependency between `Z` and the
-semantic attribute S as small as possible. Suppose the statistical dependence between `Y` and `S` is not negligible.
-In that case, there will be a trade-off between the utility of the downstream target task and invariance to `S`,
-as shown in the following diagram.
-
-
+## Visualization Results
 
 ![plot](./figs/segmentation.png)
-
-
 
 
 ## Requirements:
@@ -36,8 +26,7 @@ as shown in the following diagram.
 - torchvision = 0.8.2
 
 
-1.7.1+cu110
-0.8.2+cu110
+
 
 
 
@@ -55,5 +44,5 @@ If you think this work is useful to your research, please cite:
 
 [3] FADA (Wang et al., 2020): https://github.com/JDAI-CV/FADA
 
-
+[4] OSBP (Saito et al., 2018b) https://github.com/ksaito-ut/OPDA_BP
 
