@@ -37,7 +37,13 @@ Here we provide the code for reproducing the implementations of AdaptSegNet + KR
 ## Citation
 
 If you think this work is useful to your research, please cite:
-  To be done.
+
+    @article{zhoukrada,
+       title={KRADA: Known-region-aware Domain Alignment for Open-set Domain Adaptation in Semantic Segmentation},
+       author={Zhou, Chenhong and Liu, Feng and Gong, Chen and Zeng, Rongfei and Liu, Tongliang and Cheung, William and Han, Bo},
+       journal={Transactions of Machine Learning Research}
+       year={2023}
+      }
 
 
 ## References:
