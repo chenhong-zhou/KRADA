@@ -1,6 +1,6 @@
 
 # KRADA: Known-region-aware Domain Alignment for Open-set Domain Adaptation in Semantic Segmentation
-This repository provides pytorch implementation of [Known-region-aware Domain Alignment (KRADA) method](https://openreview.net/forum?id=5II12ypVQo) [TMLR].
+This repository provides pytorch implementation of [Known-region-aware Domain Alignment (KRADA) method](https://openreview.net/forum?id=5II12ypVQo) published in Transactions on Machine Learning Research [TMLR].
 
 
 ## Problem Setup: Open-set domain adaptation segmentation (OSDAS)
