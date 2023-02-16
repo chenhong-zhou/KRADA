@@ -26,19 +26,18 @@ Suppose that a set of source images with annotations are denoted as $\lbrace X^S
 - torchvision = 0.8.2
 
 
-## Dataset:
+## Reproduce:
 - Download the SYNTHIA Dataset.   
 - Download the Cityscapes Dataset.     
 
-Here we provide the code for reproducing the implementations of AdaptSegNet + KRADA, CLAN + KRADA, and FADA + KRADA for the Synthia -> Cityscapes task.   
-You can find the ` .sh ` file in each folder to train and evaluate the models. More related details can be found in the original [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet), [CLAN](https://github.com/RoyalVane/CLAN), [FADA](https://github.com/JDAI-CV/FADA).
+Here we provide the code for reproducing the implementations of AdaptSegNet + KRADA, CLAN + KRADA, and FADA + KRADA for the Synthia -> Cityscapes task. You can find the ` .sh ` file in each folder to train and evaluate the models. More related details can be found in the original [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet), [CLAN](https://github.com/RoyalVane/CLAN), [FADA](https://github.com/JDAI-CV/FADA).
 
 
 
 ## Citation
 
 If you think this work is useful to your research, please cite:
-
+  To be done.
 
 
 ## References:
