@@ -40,7 +40,7 @@ If you think this work is useful to your research, please cite:
 
     @article{zhou2023krada,
        title={KRADA: Known-region-aware Domain Alignment for Open-set Domain Adaptation in Semantic Segmentation},
-       author={Zhou, Chenhong and Liu, Feng and Gong, Chen and Zeng, Rongfei and Liu, Tongliang and Cheung, William and Han, Bo},
+       author={Zhou, Chenhong and Liu, Feng and Gong, Chen and Zeng, Rongfei and Liu, Tongliang and Cheung, K. William and Han, Bo},
        journal={Transactions of Machine Learning Research}
        year={2023}
       }
